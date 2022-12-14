@@ -7,5 +7,5 @@
 6. automatisch foto's dowloaden
 7. comic sans
 8. slecht kleuren combis
-9.
-10.
+9. typfouten
+10. zip bomb
