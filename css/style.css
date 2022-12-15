@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 .grid-container {
     display: grid;
@@ -14,6 +14,9 @@
     grid-template-rows: 10vh 20vh 10vh 15vh 15vh 20vh 10vh;
 }
 
+h1 {
+  font-size: x-large;
+}
 
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
