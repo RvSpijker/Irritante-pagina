@@ -8,4 +8,4 @@ function random_bg_color() {
     document.body.style.background = bgColor;
     }
 
-      setInterval(random_bg_color,20)
+      setInterval(random_bg_color,)
