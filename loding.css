@@ -1,0 +1,23 @@
+* {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+body {
+    background-image: url(./bg.png);
+    background-size: cover;
+}
+
+.ebola {
+    padding-top: 28.2%;
+}
+
+#countdown {
+    margin-left: 53.25%;
+    color: rgb(198, 198, 198);
+    background-color:#323232;
+}
+
+.gifs1 {
+    display: inline-block;
+    padding-bottom: 64px;
+}

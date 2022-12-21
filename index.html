@@ -1,43 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <title>pwease wait!!</title>
+    <link rel="stylesheet" type="text/css" href="./loding.css">
+    <meta http-equiv="refresh" content="190;src=onepager.html" />
+</head>
+<body>
 
-        <title>Onepager</title>
-        <link rel="shortcut icon" href="images/logo.svg" type="image/x-icon">
+    <div class="gifs1">
+        <img src="./nyan.gif" height="90px;" width="auto">
+    </div><div class="gifs1">
+        <img src="./catsad.gif" height="69px;" width="auto">
+    </div><div class="gifs1">
+        <img src="./sexgifs.gif" height="200px;" width="auto">
+    </div>
+    
 
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
-    </head>
+<br>
 
-    <body>
-        <div class="grid-container">    
+<b><span id="countdown">90</span></b>
 
-            <div class="grid-item1"></div>
+<script type="text/javascript">
 
-            <div class="grid-item2"></div>
+var timer = 169,
+    el = document.getElementById('countdown');
 
-            <div class="grid-logo"><img class="logo" src="images/logo.svg" alt="logo"></div>
+(function t_minus() {
+    'use strict';
+    el.innerHTML = timer--;
+    if (timer >= 0) {
+        setTimeout(function () {
+            t_minus();
+        }, 1200);
+    } else {
+    }
+}());
 
-            <div class="grid-item4"><h1 class="font-effect-fire"><strong>Daily tappable tech news <br> and stories</strong></h1></div>
+</script>
 
-            <div class="grid-item5">
-                <p class="font-effect-fire">Every weekday Sip surfaces the most interesting and important tech <br> 
-                stories of the day, from breaking news to profiles on favorite tech <br> 
-                products.</p>
-            </div>
+<div class="gifs1">
+    <img src="./capybara.gif" height="110px;" width="auto">
+</div>
+<div class="gifs1">
+    <img src="./fortnite.gif" height="180px;" width="auto">
+</div>
+<div class="gifs1">
+    <img src="./okipullup.gif" height="120px;" width="auto">
+</div>
+<div class="gifs1">
+    <img src="./giphy.gif" height="100px;" width="auto">
+</div>
+<div class="gifs1">
+    <img src="./pika.gif" height="190px;" width="auto">
+</div>
+<div class="gifs1">
+    <img src="./sexgif.png" height="234px;" width="auto">
+</div>
+<div class="gifs1">
+    <img src="./capybarabath.gif" height="165px;" width="auto">
+</div>
+    
+</body>
 
-            <div class="grid-item6"><img class="download" src="images/download-ios.svg" alt="download-ios">
-                <img class="download" src="images/download-android.svg" alt="download-android">
-            </div>
 
-            <div class="grid-item7"><p id="text1" class="font-effect-fire">Sip News is built by <a href="https://www.producthunt.com">Product Hunt</a> and its awesome community.</p></div>
 
-            <div class="grid-item8"><img class="iphone" src="images/iphone.png" alt="iphone"z></div>
-            <iframe class="grid-item9" src="http://www.staggeringbeauty.com/" style="border: 1px inset #ddd" width="498" height="598"></iframe>    
-    </body>
-    <script src="js/script.js"></script>
 </html>
