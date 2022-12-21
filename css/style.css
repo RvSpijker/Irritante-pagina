@@ -1,12 +1,17 @@
-
+@font-face {
+    font-family: GraublauWeb;
+    src: url("images/sans-forgetica.regular.otf") format("opentype");
+}
 
 @media only screen and (min-width: 900px) {
+
+  
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    
 }
 .grid-container {
     display: grid;
