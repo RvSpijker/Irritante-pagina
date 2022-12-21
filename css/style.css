@@ -1,6 +1,6 @@
-@font-face {
-    font-family: GraublauWeb;
-    src: url("images/sans-forgetica.regular.otf") format("opentype");
+
+body {
+  font-family: "Sofia", sans-serif;
 }
 
 @media only screen and (min-width: 900px) {
@@ -11,7 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+        
 }
 .grid-container {
     display: grid;
