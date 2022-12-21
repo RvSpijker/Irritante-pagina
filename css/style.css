@@ -119,6 +119,13 @@ a {
   grid-row-end: 7;
 }
 
+.grid-item10 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 7;
+  grid-row-end: 8;
+}
+
 .iphone {
   width: auto;
   height: 100%;
