@@ -1,6 +1,5 @@
 #wrap { width: 600px; height: 390px; padding: 0; overflow: hidden; }
 #frame { width: 800px; height: 520px; border: 1px solid black; }
-#frame { zoom: 0.75; -moz-transform: scale(0.75); -moz-transform-origin: 0 0; }
 
 
 body {
@@ -36,12 +35,19 @@ h1 {
 }
 
 .grid-item1 {
-    background-color: rgb(0, 0, 0);
+    background-color: black;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 8;
   }
+
+.grid-item69 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 8;
+}
 
 .grid-item2 {
    
