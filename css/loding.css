@@ -3,7 +3,11 @@
 }
 
 body {
+<<<<<<< Updated upstream
     background-image: url(../images/bg.png);
+=======
+    
+>>>>>>> Stashed changes
     background-size: cover;
     
     overflow: hidden; /* Hide scrollbars */
