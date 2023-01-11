@@ -5,15 +5,26 @@
     <title>pwease wait!!</title>
     <link rel="stylesheet" type="text/css" href="css/loding.css">
     <meta http-equiv="refresh" content="150;onepager.html">
+    <script>
+        function removeDiv(divId) {
+          var div = document.getElementById(divId);
+          div.parentNode.removeChild(div);
+        }
+      </script>
 </head>
 <body>
 
-    <div class="gifs1">
+    <div id="div1" class="gifs1">
         <img src="images/nyan.gif" height="90px;" width="auto">
-    </div><div class="gifs1">
+        <img id="close" src="images/close-icon.png" alt="close" onclick="removeDiv('div1')">
+    </div>
+    <div id="div2" class="gifs1">
         <img src="images/catsad.gif" height="69px;" width="auto">
-    </div><div class="gifs1">
+        <img id="close" src="images/close-icon.png" alt="close" onclick="removeDiv('div2')">
+    </div>
+    <div id="div3" class="gifs1">
         <img src="images/sexgifs.gif" height="200px;" width="auto">
+        <img id="close" src="images/close-icon.png" alt="close" onclick="removeDiv('div3')">
     </div>
     
 
@@ -39,36 +50,36 @@ var timer = 169,
 
 </script>
 
-<div class="gifs1">
+<div id="div4" class="gifs1">
     <img src="images/capybara.gif" height="110px;" width="auto">
+    <img id="close" src="images/close-icon.png" alt="close" onclick="removeDiv('div4')">
 </div>
-<div class="gifs1">
+<div id="div5" class="gifs1">
     <img src="images/fortnite.gif" height="180px;" width="auto">
+    <img id="close" src="images/close-icon.png" alt="close" onclick="removeDiv('div5')">
 </div>
-<div class="gifs1">
+<div id="div6" class="gifs1">
     <img src="images/okipullup.gif" height="120px;" width="auto">
+    <img id="close" src="images/close-icon.png" alt="close" onclick="removeDiv('div6')">
 </div>
-<div class="gifs1">
+<div id="div7" class="gifs1">
     <img src="images/giphy.gif" height="100px;" width="auto">
+    <img id="close" src="images/close-icon.png" alt="close" onclick="removeDiv('div7')">
 </div>
-<div class="gifs1">
+<div id="div8" class="gifs1">
     <img src="images/pika.gif" height="190px;" width="auto">
+    <img id="close" src="images/close-icon.png" alt="close" onclick="removeDiv('div8')">
 </div>
-<div class="gifs1">
+<div id="div9" class="gifs1">
     <img src="images/sexgif.png" height="234px;" width="auto">
+    <img id="close" src="images/close-icon.png" alt="close" onclick="removeDiv('div9')">
 </div>
-<div class="gifs1">
+<div id="div10" class="gifs1">
     <img src="images/capybarabath.gif" height="165px;" width="auto">
+    <img id="close" src="images/close-icon.png" alt="close" onclick="removeDiv('div10')">
 </div>
 
-  <form action="/destroyImage" method="POST">
-    <div class="gifs1">
-      <button type="submit" class="close">
-        <span>&times;</span>
-      </button>
-      <img src="https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg">
-    </div>
-  </form>
+  
     
 </body>
 
