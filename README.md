@@ -8,4 +8,4 @@
 7. slecht lettertype ✅
 8. slecht kleuren combis ✅
 9. typfouten ✅
-10. zip bomb
+10. zip bomb download
