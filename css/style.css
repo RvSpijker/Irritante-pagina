@@ -147,3 +147,10 @@ a {
   width: 140px;
   margin: 6px;
 }
+}
+
+#rat {
+  position: absolute;
+  height: 183px;
+  width: auto;
+}
