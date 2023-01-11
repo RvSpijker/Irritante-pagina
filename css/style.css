@@ -44,9 +44,10 @@ h1 {
 
 .grid-item69 {
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 5;
   grid-row-start: 1;
-  grid-row-end: 8;
+  grid-row-end: 7;
+  opacity: 50%;
 }
 
 .grid-item2 {

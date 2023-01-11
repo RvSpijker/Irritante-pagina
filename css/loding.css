@@ -24,3 +24,13 @@ body {
     display: inline-block;
     padding-bottom: 64px;
 }
+
+button{
+    position: absolute;
+    z-index: 1;
+    right: 0;
+  }
+  img {
+    position: relative;
+    width: 100%;
+  }

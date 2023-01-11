@@ -10,3 +10,7 @@ function random_bg_color() {
 
       setInterval(random_bg_color,)
 
+
+// while(true) {
+//    alert("JE MOEDER IS LELIJK HAHAHAHAHAHAHAHAHAHA");
+// }
