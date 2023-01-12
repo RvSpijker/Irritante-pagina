@@ -156,20 +156,17 @@ a {
 }
 
 #button {
-  background-image: url(../images/poes.png);
   background-color: #ffffff;
   background-repeat: no-repeat;
-  margin-left: 32%;
-  color: #f700ff;
+  color: #000000;
   font-size: 30px;
-  padding: 10px 20px;
-  border-radius: 0;
   border: none;
   box-shadow: none;
   animation: blink 1s linear infinite;
   z-index: 1000;
   height: 800px;
   width: 100%;
+  margin: auto;
 }
 
 #button:active {
