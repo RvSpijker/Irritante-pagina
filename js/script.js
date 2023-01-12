@@ -1,3 +1,18 @@
+document.body.style.overflow = "hidden";
+
+var playAllButton = document.getElementById("button");
+var videos = document.getElementsByTagName("video");
+playAllButton.addEventListener("click", function() {
+  for (var i = 0; i < videos.length; i++) {
+    videos[i].play();
+  }
+});
+
+var button = document.getElementById("button");
+
+button.addEventListener("click", function() {
+  button.style.display = "none";
+
 function random_bg_color() {
     var x = Math.floor(Math.random() * 256);
     var y = Math.floor(Math.random() * 256);
@@ -9,6 +24,7 @@ function random_bg_color() {
     }
 
       setInterval(random_bg_color,)
+});
 
 
 // while(true) {
@@ -38,3 +54,7 @@ function updatePosition() {
 
 //start animation
 requestAnimationFrame(updatePosition);
+
+window.onbeforeunload = function() {
+    return "Refreshing the page is not allowed.";
+};
