@@ -36,6 +36,8 @@ h1 {
 
 .grid-item1 {
     background-color: black;
+    background-image: url(../images/capybarabath.gif);
+    background-size: cover;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;

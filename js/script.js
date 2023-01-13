@@ -26,11 +26,6 @@ function random_bg_color() {
       setInterval(random_bg_color,)
 });
 
-
-// while(true) {
-//    alert("JE MOEDER IS LELIJK HAHAHAHAHAHAHAHAHAHA");
-// }
-
 const movingElement = document.getElementById("rat");
 let x = 0;
 let y = 0;
