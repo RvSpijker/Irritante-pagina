@@ -2,6 +2,18 @@
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
+/* place a image at the bottem right of the screen */
+#bottemright {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.NUKE {
+ width: 3%;
+ height: 5%;
+}
+
 body {
     background-image: url(../images/bg.png);
     background-size: 1490px;
