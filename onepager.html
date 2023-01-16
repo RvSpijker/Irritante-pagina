@@ -21,33 +21,6 @@
                              'width=500,height=700'); 
                   return false;" class="button" id="button"><img src="images/poes.png" alt="poes"><p>Press the butten to meow meow</p></button>
 
-        <video width="10" height="10" hidden>
-            <source src="./images/banana.mp4" type="video/mp4">
-          </video>
-        
-        <video width="10" height="10" hidden>
-            <source src="./images/funky.mp4" type="video/mp4">
-        </video>
-
-        <video width="10" height="10" hidden>
-            <source src="./images/september.mp4" type="video/mp4">
-          </video>
-        
-        <video width="10" height="10" hidden>
-            <source src="./images/banana.mp4" type="video/mp4">
-        </video>
-
-        <video width="10" height="10" hidden>
-            <source src="./images/birds.mp4" type="video/mp4">
-          </video>
-        
-        <video width="10" height="10" hidden>
-            <source src="./images/piggie.mp4" type="video/mp4">
-        </video>
-
-        <video width="10" height="10" hidden>
-            <source src="./images/cats.mp4" type="video/mp4">
-        </video>
 
         <div class="grid-container">    
 
@@ -82,6 +55,32 @@
                 </video>
             </div>
             <img id="rat" src="./images/capyspin.gif">
+
+             <script>
+                var audioFiles = [
+                  {file: "./audio/meow.mp3", probability: 0.8},
+                  {file: "./audio/woem.mp3", probability: 0.1},
+                  {file: "./audio/meowed.mp3", probability: 0.1}
+                ];
+              
+                var randomValue = Math.random();
+                var cumulativeProbability = 0;
+                var selectedAudio;
+                for (var i = 0; i < audioFiles.length; i++) {
+                  cumulativeProbability += audioFiles[i].probability;
+                  if (randomValue < cumulativeProbability) {
+                    selectedAudio = audioFiles[i].file;
+                    break;
+                  }
+                }
+              
+                var audio = new Audio(selectedAudio);
+                audio.play();
+                audio.addEventListener('ended', function() {
+                  this.currentTime = 0;
+                  this.play();
+                }, false);
+              </script>
 
     </body>
     <script src="js/script.js"></script>
