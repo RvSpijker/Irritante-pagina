@@ -66,3 +66,23 @@ function random_3(){
     else if (myrandom==2)
         window.location=link3
 }
+
+const websites = [
+    "https://www.rvspijker.nl",
+    "https://www.pornhub.com",
+    "https://www.kanslooos.nl"
+];
+
+const link = document.getElementById("link");
+
+function randomLink() {
+    // generate a random number between 0 and the length of the websites array
+    const randomIndex = Math.floor(Math.random() * websites.length);
+    link.href = websites[randomIndex];
+}
+
+// set the link's href to a random website when the page loads
+randomLink();
+
+// You can also use it on event like click, mouseover etc
+link.addEventListener("click", randomLink);

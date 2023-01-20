@@ -202,3 +202,8 @@ video {
   height: 58vh;
   margin-left: 2vw;
 }
+
+.hitbox {
+  grid-column: 1 / 6;
+  grid-row: 1 / 8;
+}
