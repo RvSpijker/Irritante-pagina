@@ -1,15 +1,5 @@
 document.body.style.overflow = "hidden";
 
-var playAllButton = document.getElementById("button");
-var videos = document.getElementsByTagName("video");
-playAllButton.addEventListener("click", function() {
-  for (var i = 0; i < videos.length; i++) {
-    videos[i].play();
-  }
-});
-
-var button = document.getElementById("button");
-
 button.addEventListener("click", function() {
   button.style.display = "none";
 
@@ -86,3 +76,17 @@ randomLink();
 
 // You can also use it on event like click, mouseover etc
 link.addEventListener("click", randomLink);
+
+function showdiv()
+{
+    document.getElementById("breaktime").style.visibility="visible";
+    document.getElementById("breaktime").play();
+}
+setTimeout("showdiv()", 31000);
+
+function hidediv()
+{
+    document.getElementById("breaktime").style.visibility="hidden";
+    document.getElementById("breaktime").pause();
+}
+setTimeout("hidediv()", 88000);

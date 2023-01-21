@@ -207,3 +207,10 @@ video {
   grid-column: 1 / 6;
   grid-row: 1 / 8;
 }
+
+#breaktime {
+  visibility: hidden;
+  position:absolute;
+  height: 100%;
+  width: 100%;
+}
