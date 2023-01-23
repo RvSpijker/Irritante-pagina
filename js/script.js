@@ -40,9 +40,7 @@ function updatePosition() {
 //start animation
 requestAnimationFrame(updatePosition);
 
-window.onbeforeunload = function() {
-    return "Refreshing the page is not allowed.";
-};
+
 
 function random_3(){
     var myrandom=Math.round(Math.random()*2)
