@@ -87,4 +87,4 @@ function hidediv()
     document.getElementById("breaktime").style.visibility="hidden";
     document.getElementById("breaktime").pause();
 }
-setTimeout("hidediv()", 88000);
+setTimeout("hidediv()", 77000);
