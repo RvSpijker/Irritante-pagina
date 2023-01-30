@@ -19,8 +19,8 @@ function random_bg_color() {
 const movingElement = document.getElementById("rat");
 let x = 0;
 let y = 0;
-let xSpeed = 2.5;
-let ySpeed = 3.5;
+let xSpeed = 26.9;
+let ySpeed = 69;
 
 function updatePosition() {
     x += xSpeed;
