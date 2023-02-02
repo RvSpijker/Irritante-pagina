@@ -19,8 +19,8 @@ function random_bg_color() {
 const movingElement = document.getElementById("rat");
 let x = 0;
 let y = 0;
-let xSpeed = 2.5;
-let ySpeed = 3.5;
+let xSpeed = 50.9;
+let ySpeed = 130;
 
 function updatePosition() {
     x += xSpeed;
@@ -56,8 +56,9 @@ function random_3(){
 }
 
 const websites = [
+    "https://www.devriesniek.nl",
     "https://www.rvspijker.nl",
-    "https://www.pornhub.com",
+    "https://www.kharua.nl",
     "https://www.kanslooos.nl"
 ];
 
@@ -87,4 +88,4 @@ function hidediv()
     document.getElementById("breaktime").style.visibility="hidden";
     document.getElementById("breaktime").pause();
 }
-setTimeout("hidediv()", 88000);
+setTimeout("hidediv()", 77000);
