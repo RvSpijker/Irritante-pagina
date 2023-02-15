@@ -69,7 +69,7 @@ function random_3(){
 
 const websites = [
     "https://www.rvspijker.nl",
-    "https://www.pornhub.com",
+    "https://www.kharua.nl",
     "https://www.kanslooos.nl"
 ];
 
