@@ -27,10 +27,13 @@ var timer = 169,
     }
 }());
 
-
+function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+}
 
 </script>
-
+<audio id="audio" src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"></audio>
 <div id="div1" class="gifs1">
     <img src="images/nyan.gif" height="90px;" width="auto">
     <img id="close" src="images/close-icon.png" alt="close" onclick="removeDiv('div1')">
@@ -40,7 +43,7 @@ var timer = 169,
     <img id="close" src="images/close-icon.png" alt="close" onclick="removeDiv('div2')">
 </div>
 <div id="div3" class="gifs1">
-    <img src="images/sexgifs.gif" height="200px;" width="auto">
+    <img type="button" value="PLAY" onclick="play()" src="images/sexgifs.gif" height="200px;" width="auto">
     <img id="close" src="images/close-icon.png" alt="close" onclick="removeDiv('div3')">
 </div>
 <div id="div4" class="gifs1">
